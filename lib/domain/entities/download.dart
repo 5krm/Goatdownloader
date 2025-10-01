@@ -18,6 +18,7 @@ class Download extends Equatable {
   final DateTime? startedAt;
   final DateTime? completedAt;
   final DateTime? pausedAt;
+  final DateTime? updatedAt;
   final String? errorMessage;
   final DownloadQuality quality;
   final bool isAudioOnly;
@@ -36,6 +37,7 @@ class Download extends Equatable {
     this.startedAt,
     this.completedAt,
     this.pausedAt,
+    this.updatedAt,
     this.errorMessage,
     this.quality = DownloadQuality.medium,
     this.isAudioOnly = false,
@@ -56,6 +58,7 @@ class Download extends Equatable {
         startedAt,
         completedAt,
         pausedAt,
+        updatedAt,
         errorMessage,
         quality,
         isAudioOnly,
@@ -76,6 +79,7 @@ class Download extends Equatable {
     DateTime? startedAt,
     DateTime? completedAt,
     DateTime? pausedAt,
+    DateTime? updatedAt,
     String? errorMessage,
     DownloadQuality? quality,
     bool? isAudioOnly,
@@ -94,6 +98,7 @@ class Download extends Equatable {
       startedAt: startedAt ?? this.startedAt,
       completedAt: completedAt ?? this.completedAt,
       pausedAt: pausedAt ?? this.pausedAt,
+      updatedAt: updatedAt ?? this.updatedAt,
       errorMessage: errorMessage ?? this.errorMessage,
       quality: quality ?? this.quality,
       isAudioOnly: isAudioOnly ?? this.isAudioOnly,
@@ -187,14 +192,16 @@ class Download extends Equatable {
   /// Checks if download can be cancelled
   bool get canCancel => status == DownloadStatus.downloading || 
                        status == DownloadStatus.paused ||
-                       status == DownloadStatus.queued;
+                       status == DownloadStatus.queued ||
+                       status == DownloadStatus.pending;
 
   /// Checks if download can be retried
   bool get canRetry => status == DownloadStatus.failed;
 
   /// Checks if download is active (downloading or queued)
   bool get isActive => status == DownloadStatus.downloading || 
-                      status == DownloadStatus.queued;
+                      status == DownloadStatus.queued ||
+                      status == DownloadStatus.pending;
 
   /// Checks if download is completed successfully
   bool get isCompleted => status == DownloadStatus.completed;
@@ -231,6 +238,7 @@ class Download extends Equatable {
 
 /// Enum representing different download statuses
 enum DownloadStatus {
+  pending,
   queued,
   downloading,
   paused,
@@ -243,6 +251,8 @@ enum DownloadStatus {
 extension DownloadStatusExtension on DownloadStatus {
   String get displayName {
     switch (this) {
+      case DownloadStatus.pending:
+        return 'Pending';
       case DownloadStatus.queued:
         return 'Queued';
       case DownloadStatus.downloading:
@@ -260,6 +270,8 @@ extension DownloadStatusExtension on DownloadStatus {
 
   String get icon {
     switch (this) {
+      case DownloadStatus.pending:
+        return '🔄';
       case DownloadStatus.queued:
         return '⏳';
       case DownloadStatus.downloading:
@@ -276,7 +288,8 @@ extension DownloadStatusExtension on DownloadStatus {
   }
 
   bool get isActive => this == DownloadStatus.downloading || 
-                      this == DownloadStatus.queued;
+                      this == DownloadStatus.queued ||
+                      this == DownloadStatus.pending;
 
   bool get isFinished => this == DownloadStatus.completed || 
                         this == DownloadStatus.failed || 
@@ -345,7 +358,9 @@ class DownloadStats extends Equatable {
   final int totalDownloads;
   final int completedDownloads;
   final int failedDownloads;
-  final int totalBytes;
+  final int activeDownloads;
+  final int totalSize;
+  final int downloadedSize;
   final Duration totalTime;
   final double averageSpeed;
   final Map<String, int> platformStats;
@@ -355,7 +370,9 @@ class DownloadStats extends Equatable {
     required this.totalDownloads,
     required this.completedDownloads,
     required this.failedDownloads,
-    required this.totalBytes,
+    required this.activeDownloads,
+    required this.totalSize,
+    required this.downloadedSize,
     required this.totalTime,
     required this.averageSpeed,
     required this.platformStats,
@@ -367,7 +384,9 @@ class DownloadStats extends Equatable {
         totalDownloads,
         completedDownloads,
         failedDownloads,
-        totalBytes,
+        activeDownloads,
+        totalSize,
+        downloadedSize,
         totalTime,
         averageSpeed,
         platformStats,
@@ -380,11 +399,11 @@ class DownloadStats extends Equatable {
   }
 
   String get formattedTotalSize {
-    final sizeInGB = totalBytes / (1024 * 1024 * 1024);
+    final sizeInGB = totalSize / (1024 * 1024 * 1024);
     if (sizeInGB >= 1) {
       return '${sizeInGB.toStringAsFixed(1)} GB';
     } else {
-      final sizeInMB = totalBytes / (1024 * 1024);
+      final sizeInMB = totalSize / (1024 * 1024);
       return '${sizeInMB.toStringAsFixed(1)} MB';
     }
   }
