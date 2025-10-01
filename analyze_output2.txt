@@ -1,0 +1,962 @@
+﻿Analyzing goatdownloder...                                      
+
+   info - The imported package 'sqflite' isn't a dependency of the importing package - lib\core\database\database_helper.dart:3:8 - depend_on_referenced_packages
+   info - The imported package 'path' isn't a dependency of the importing package - lib\core\database\database_helper.dart:4:8 - depend_on_referenced_packages
+  error - The named parameter 'database' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:92:11 - missing_required_argument
+  error - The named parameter 'databaseHelper' isn't defined - lib\core\di\injection_container.dart:93:7 - undefined_named_parameter
+  error - The named parameter 'hiveHelper' isn't defined - lib\core\di\injection_container.dart:94:7 - undefined_named_parameter
+  error - The named parameter 'clearCompletedDownloads' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'getDownloadById' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'getDownloadQueue' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'getDownloadStatistics' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'hiveHelper' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'reorderDownloadQueue' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'setMaxConcurrentDownloads' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'startDownload' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'updateDownloadMetadata' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'watchDownloadProgress' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:103:11 - missing_required_argument
+  error - The named parameter 'downloadVideo' isn't defined - lib\core\di\injection_container.dart:104:7 - undefined_named_parameter
+  error - The name 'DownloadRepository' is defined in the libraries 'package:goatdownloder/domain/repositories/download_repository.dart' and 'package:goatdownloder/domain/repositories/video_repository.dart' - lib\core\di\injection_container.dart:128:28 - ambiguous_import
+  error - The named parameter 'database' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:145:11 - missing_required_argument
+  error - The named parameter 'databaseHelper' isn't defined - lib\core\di\injection_container.dart:146:7 - undefined_named_parameter
+  error - The named parameter 'hiveHelper' is required, but there's no corresponding argument - lib\core\di\injection_container.dart:155:11 - missing_required_argument
+  error - The name 'DownloadRepository' is defined in the libraries 'package:goatdownloder/domain/repositories/download_repository.dart' and 'package:goatdownloder/domain/repositories/video_repository.dart' - lib\core\di\injection_container.dart:268:53 - ambiguous_import
+   info - Don't invoke 'print' in production code - lib\core\di\injection_container.dart:324:5 - avoid_print
+  error - The name 'DownloadRepository' is defined in the libraries 'package:goatdownloder/domain/repositories/download_repository.dart' and 'package:goatdownloder/domain/repositories/video_repository.dart' - lib\core\di\injection_container.dart:346:49 - ambiguous_import
+   info - Dangling library doc comment - lib\core\error\exceptions.dart:4:1 - dangling_library_doc_comments
+warning - Unused import: '../constants/app_constants.dart' - lib\core\storage\hive_helper.dart:5:8 - unused_import
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:283:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:309:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:318:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:327:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:357:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:366:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:375:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:399:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:408:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:417:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:436:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:445:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:454:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:507:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:522:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:532:30 - extra_positional_arguments_could_be_named
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\storage\hive_helper.dart:556:30 - extra_positional_arguments_could_be_named
+warning - Unused import: 'package:dynamic_color/dynamic_color.dart' - lib\core\theme\app_theme.dart:3:8 - unused_import
+   info - The imported package 'material_color_utilities' isn't a dependency of the importing package - lib\core\theme\app_theme.dart:4:8 - depend_on_referenced_packages
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\core\theme\app_theme.dart:91:18 - argument_type_not_assignable
+  error - The argument type 'DialogTheme' can't be assigned to the parameter type 'DialogThemeData?'.  - lib\core\theme\app_theme.dart:130:20 - argument_type_not_assignable
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\core\theme\app_theme.dart:246:18 - argument_type_not_assignable
+  error - The argument type 'DialogTheme' can't be assigned to the parameter type 'DialogThemeData?'.  - lib\core\theme\app_theme.dart:285:20 - argument_type_not_assignable
+   info - The imported package 'sqflite' isn't a dependency of the importing package - lib\data\datasources\download_local_data_source.dart:3:8 - depend_on_referenced_packages
+   info - The imported package 'path' isn't a dependency of the importing package - lib\data\datasources\download_local_data_source.dart:4:8 - depend_on_referenced_packages
+warning - Unused import: 'package:path/path.dart' - lib\data\datasources\download_local_data_source.dart:4:8 - unused_import
+warning - Unused import: '../../domain/entities/video.dart' - lib\data\datasources\download_local_data_source.dart:10:8 - unused_import
+  error - The getter 'updatedAt' isn't defined for the type 'DownloadModel' - lib\data\datasources\download_local_data_source.dart:116:34 - undefined_getter
+  error - The getter 'updatedAt' isn't defined for the type 'DownloadModel' - lib\data\datasources\download_local_data_source.dart:143:34 - undefined_getter
+warning - The value of the local variable 'stat' isn't used - lib\data\datasources\download_local_data_source.dart:425:15 - unused_local_variable
+  error - There's no constant named 'pending' in 'DownloadStatus' - lib\data\datasources\download_local_data_source.dart:608:40 - undefined_enum_constant
+  error - The argument type 'int?' can't be assigned to the parameter type 'int'.  - lib\data\datasources\download_local_data_source.dart:612:21 - argument_type_not_assignable
+warning - Unused import: 'dart:isolate' - lib\data\datasources\download_remote_data_source.dart:3:8 - unused_import
+   info - The imported package 'path' isn't a dependency of the importing package - lib\data\datasources\download_remote_data_source.dart:6:8 - depend_on_referenced_packages
+warning - Unused import: 'package:path/path.dart' - lib\data\datasources\download_remote_data_source.dart:6:8 - unused_import
+warning - Unused import: '../models/download_model.dart' - lib\data\datasources\download_remote_data_source.dart:8:8 - unused_import
+warning - Unused import: '../../domain/entities/download.dart' - lib\data\datasources\download_remote_data_source.dart:10:8 - unused_import
+  error - The named parameter 'dislikeCount' is required, but there's no corresponding argument - lib\data\datasources\download_remote_data_source.dart:425:14 - missing_required_argument
+  error - The named parameter 'likeCount' is required, but there's no corresponding argument - lib\data\datasources\download_remote_data_source.dart:425:14 - missing_required_argument
+  error - The named parameter 'subtitles' is required, but there's no corresponding argument - lib\data\datasources\download_remote_data_source.dart:425:14 - missing_required_argument
+  error - The named parameter 'uploaderUrl' is required, but there's no corresponding argument - lib\data\datasources\download_remote_data_source.dart:425:14 - missing_required_argument
+  error - The named parameter 'url' is required, but there's no corresponding argument - lib\data\datasources\download_remote_data_source.dart:425:14 - missing_required_argument
+  error - The named parameter 'videoUrl' isn't defined - lib\data\datasources\download_remote_data_source.dart:430:9 - undefined_named_parameter
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\data\datasources\download_remote_data_source.dart:437:15 - prefer_const_literals_to_create_immutables
+  error - The named parameter 'hasSubtitles' isn't defined - lib\data\datasources\download_remote_data_source.dart:442:9 - undefined_named_parameter
+  error - The named parameter 'likes' isn't defined - lib\data\datasources\download_remote_data_source.dart:444:9 - undefined_named_parameter
+  error - The named parameter 'dislikes' isn't defined - lib\data\datasources\download_remote_data_source.dart:445:9 - undefined_named_parameter
+  error - The method 'getNetworkQuality' isn't defined for the type 'NetworkInfo' - lib\data\datasources\download_remote_data_source.dart:458:30 - undefined_method
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<VideoFormatModel>', is a potentially non-nullable type - lib\data\datasources\download_remote_data_source.dart:462:28 - body_might_complete_normally
+warning - The left operand can't be null, so the right operand is never executed - lib\data\datasources\download_remote_data_source.dart:468:38 - dead_null_aware_expression
+  error - The method 'compareTo' isn't defined for the type 'Object' - lib\data\datasources\download_remote_data_source.dart:468:42 - undefined_method
+warning - The left operand can't be null, so the right operand is never executed - lib\data\datasources\download_remote_data_source.dart:468:65 - dead_null_aware_expression
+  error - The getter 'excellent' isn't defined for the type 'NetworkQuality' - lib\data\datasources\download_remote_data_source.dart:471:27 - undefined_getter
+  error - The getter 'good' isn't defined for the type 'NetworkQuality' - lib\data\datasources\download_remote_data_source.dart:475:27 - undefined_getter
+warning - The receiver can't be null, so the null-aware operator '?.' is unnecessary - lib\data\datasources\download_remote_data_source.dart:478:36 - invalid_null_aware_operator
+  error - The method 'toLowerCase' isn't defined for the type 'int' - lib\data\datasources\download_remote_data_source.dart:478:38 - undefined_method
+  error - The getter 'fair' isn't defined for the type 'NetworkQuality' - lib\data\datasources\download_remote_data_source.dart:485:27 - undefined_getter
+warning - The receiver can't be null, so the null-aware operator '?.' is unnecessary - lib\data\datasources\download_remote_data_source.dart:488:36 - invalid_null_aware_operator
+  error - The method 'toLowerCase' isn't defined for the type 'int' - lib\data\datasources\download_remote_data_source.dart:488:38 - undefined_method
+  error - The getter 'poor' isn't defined for the type 'NetworkQuality' - lib\data\datasources\download_remote_data_source.dart:495:27 - undefined_getter
+  error - A value of type 'void' can't be returned from the method 'onError' because it has a return type of 'Future<Response<dynamic>>' - lib\data\datasources\download_remote_data_source.dart:718:12 - return_of_invalid_type
+   info - The imported package 'sqflite' isn't a dependency of the importing package - lib\data\datasources\video_local_data_source.dart:3:8 - depend_on_referenced_packages
+  error - The getter 'videoCacheBox' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:90:61 - undefined_getter
+  error - The getter 'searchCacheBox' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:91:62 - undefined_getter
+  error - The getter 'trendingCacheBox' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:92:64 - undefined_getter
+  error - The getter 'recentlyViewedBox' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:93:65 - undefined_getter
+  error - The getter 'favoritesBox' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:94:60 - undefined_getter
+  error - The getter 'watchHistoryBox' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:95:63 - undefined_getter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:97:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:97:28 - extra_positional_arguments_could_be_named
+  error - Invalid constant value - lib\data\datasources\video_local_data_source.dart:108:40 - invalid_constant
+  error - The getter 'cacheExpirationHours' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:108:53 - undefined_getter
+  error - The getter 'url' isn't defined for the type 'VideoModel' - lib\data\datasources\video_local_data_source.dart:112:35 - undefined_getter
+  error - The getter 'url' isn't defined for the type 'VideoModel' - lib\data\datasources\video_local_data_source.dart:118:24 - undefined_getter
+  error - Invalid constant value - lib\data\datasources\video_local_data_source.dart:125:42 - invalid_constant
+  error - The getter 'cacheExpirationHours' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:125:55 - undefined_getter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:131:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:131:28 - extra_positional_arguments_could_be_named
+  error - Invalid constant value - lib\data\datasources\video_local_data_source.dart:165:42 - invalid_constant
+  error - The getter 'searchCacheExpirationMinutes' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:165:55 - undefined_getter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:171:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:171:28 - extra_positional_arguments_could_be_named
+  error - Invalid constant value - lib\data\datasources\video_local_data_source.dart:206:40 - invalid_constant
+  error - The getter 'trendingCacheExpirationHours' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:206:53 - undefined_getter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:212:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:212:28 - extra_positional_arguments_could_be_named
+  error - Evaluation of this constant expression throws an exception - lib\data\datasources\video_local_data_source.dart:223:53 - const_eval_throws_exception
+  error - Evaluation of this constant expression throws an exception - lib\data\datasources\video_local_data_source.dart:226:6 - const_eval_throws_exception
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:249:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:249:28 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:317:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:317:28 - extra_positional_arguments_could_be_named
+  error - The getter 'maxRecentlyViewed' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:395:48 - undefined_getter
+  error - The getter 'maxRecentlyViewed' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:425:49 - undefined_getter
+  error - The getter 'maxRecentlyViewed' isn't defined for the type 'AppConstants' - lib\data\datasources\video_local_data_source.dart:445:35 - undefined_getter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:450:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:450:28 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:459:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:459:28 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:494:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:494:28 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:503:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:503:28 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:568:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:568:28 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_local_data_source.dart:577:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_local_data_source.dart:577:28 - extra_positional_arguments_could_be_named
+   info - The imported package 'html' isn't a dependency of the importing package - lib\data\datasources\video_remote_data_source.dart:2:8 - depend_on_referenced_packages
+  error - 1 positional argument expected by 'UnsupportedFormatException.new', but 0 found - lib\data\datasources\video_remote_data_source.dart:100:44 - not_enough_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:210:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_remote_data_source.dart:210:30 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:213:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_remote_data_source.dart:213:29 - extra_positional_arguments_could_be_named
+  error - The getter 'formats' isn't defined for the type 'VideoModel' - lib\data\datasources\video_remote_data_source.dart:241:20 - undefined_getter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:243:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_remote_data_source.dart:243:38 - extra_positional_arguments_could_be_named
+  error - The getter 'subtitles' isn't defined for the type 'VideoModel' - lib\data\datasources\video_remote_data_source.dart:251:20 - undefined_getter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:253:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_remote_data_source.dart:253:38 - extra_positional_arguments_could_be_named
+  error - The named parameter 'availableFormats' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:361:14 - missing_required_argument
+  error - The named parameter 'isLiveStream' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:361:14 - missing_required_argument
+  error - The named parameter 'isPrivate' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:361:14 - missing_required_argument
+  error - The named parameter 'uploaderAvatar' isn't defined - lib\data\datasources\video_remote_data_source.dart:373:9 - undefined_named_parameter
+  error - The named parameter 'formats' isn't defined - lib\data\datasources\video_remote_data_source.dart:376:9 - undefined_named_parameter
+  error - The argument type 'String' can't be assigned to the parameter type 'int'.  - lib\data\datasources\video_remote_data_source.dart:380:22 - argument_type_not_assignable
+  error - Undefined name 'FormatType' - lib\data\datasources\video_remote_data_source.dart:384:19 - undefined_identifier
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\data\datasources\video_remote_data_source.dart:393:20 - prefer_const_literals_to_create_immutables
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\data\datasources\video_remote_data_source.dart:394:15 - prefer_const_literals_to_create_immutables
+  error - The argument type 'String' can't be assigned to the parameter type 'VideoCategory'.  - lib\data\datasources\video_remote_data_source.dart:395:19 - argument_type_not_assignable
+  error - The named parameter 'isLive' isn't defined - lib\data\datasources\video_remote_data_source.dart:397:9 - undefined_named_parameter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:401:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_remote_data_source.dart:401:38 - extra_positional_arguments_could_be_named
+  error - The named parameter 'availableFormats' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:413:20 - missing_required_argument
+  error - The named parameter 'isLiveStream' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:413:20 - missing_required_argument
+  error - The named parameter 'isPrivate' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:413:20 - missing_required_argument
+  error - The named parameter 'uploaderAvatar' isn't defined - lib\data\datasources\video_remote_data_source.dart:425:11 - undefined_named_parameter
+  error - The named parameter 'formats' isn't defined - lib\data\datasources\video_remote_data_source.dart:428:11 - undefined_named_parameter
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\data\datasources\video_remote_data_source.dart:428:20 - prefer_const_literals_to_create_immutables
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\data\datasources\video_remote_data_source.dart:429:22 - prefer_const_literals_to_create_immutables
+  error - The argument type 'String' can't be assigned to the parameter type 'VideoCategory'.  - lib\data\datasources\video_remote_data_source.dart:431:21 - argument_type_not_assignable
+  error - The named parameter 'isLive' isn't defined - lib\data\datasources\video_remote_data_source.dart:433:11 - undefined_named_parameter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:440:13 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\datasources\video_remote_data_source.dart:440:29 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:451:11 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:455:11 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:459:11 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:463:11 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:467:11 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:471:11 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:475:11 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:479:11 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\datasources\video_remote_data_source.dart:483:11 - missing_required_argument
+  error - No associated named super constructor parameter - lib\data\models\download_model.dart:20:20 - super_formal_parameter_without_associated_named
+  error - The argument type 'int?' can't be assigned to the parameter type 'int'.  - lib\data\models\download_model.dart:37:19 - argument_type_not_assignable
+  error - Undefined name 'updatedAt' - lib\data\models\download_model.dart:61:21 - undefined_identifier
+  error - The getter 'updatedAt' isn't defined for the type 'Download' - lib\data\models\download_model.dart:85:27 - undefined_getter
+  error - There's no constant named 'pending' in 'DownloadStatus' - lib\data\models\download_model.dart:98:38 - undefined_enum_constant
+  error - There's no constant named 'pending' in 'DownloadStatus' - lib\data\models\download_model.dart:101:29 - undefined_enum_constant
+  error - 'DownloadModel.copyWith' ('DownloadModel Function({DateTime? completedAt, DateTime? createdAt, int? downloadedBytes, String? errorMessage, String? id, String? localPath, Map<String, dynamic>? metadata, double? progress, DownloadQuality? quality, VideoFormat? selectedFormat, DownloadStatus? status, int? totalBytes, DateTime? updatedAt, Video? video})') isn't a valid override of 'Download.copyWith' ('Download Function({DateTime? completedAt, DateTime? createdAt, int? downloadedBytes, String? errorMessage, String? id, bool? isAudioOnly, String? localPath, Map<String, dynamic>? metadata, DateTime? pausedAt, double? progress, DownloadQuality? quality, VideoFormat? selectedFormat, DateTime? startedAt, DownloadStatus? status, int? totalBytes, Video? video})') - lib\data\models\download_model.dart:120:17 - invalid_override
+  error - The getter 'updatedAt' isn't defined for the type 'DownloadModel' - lib\data\models\download_model.dart:146:36 - undefined_getter
+  error - The implicitly invoked unnamed constructor from 'DownloadStats' has required parameters - lib\data\models\download_model.dart:157:9 - implicit_super_initializer_missing_arguments
+  error - No associated named super constructor parameter - lib\data\models\download_model.dart:161:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\download_model.dart:162:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\download_model.dart:163:20 - super_formal_parameter_without_associated_named
+  error - Undefined name 'activeDownloads' - lib\data\models\download_model.dart:188:27 - undefined_identifier
+  error - Undefined name 'totalSize' - lib\data\models\download_model.dart:189:21 - undefined_identifier
+  error - Undefined name 'downloadedSize' - lib\data\models\download_model.dart:190:26 - undefined_identifier
+  error - The getter 'activeDownloads' isn't defined for the type 'DownloadStats' - lib\data\models\download_model.dart:202:30 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'DownloadStats' - lib\data\models\download_model.dart:203:24 - undefined_getter
+  error - The getter 'downloadedSize' isn't defined for the type 'DownloadStats' - lib\data\models\download_model.dart:204:29 - undefined_getter
+warning - The method doesn't override an inherited method - lib\data\models\download_model.dart:211:22 - override_on_non_overriding_member
+  error - The getter 'activeDownloads' isn't defined for the type 'DownloadStatsModel' - lib\data\models\download_model.dart:225:48 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'DownloadStatsModel' - lib\data\models\download_model.dart:226:36 - undefined_getter
+  error - The getter 'downloadedSize' isn't defined for the type 'DownloadStatsModel' - lib\data\models\download_model.dart:227:46 - undefined_getter
+  error - The implicitly invoked unnamed constructor from 'Video' has required parameters - lib\data\models\video_model.dart:8:9 - implicit_super_initializer_missing_arguments
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:12:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:17:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:19:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:20:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:28:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:29:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:30:11 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:31:11 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:32:11 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:33:11 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:34:11 - super_formal_parameter_without_associated_named
+  error - The argument type 'int' can't be assigned to the parameter type 'Duration'.  - lib\data\models\video_model.dart:46:17 - argument_type_not_assignable
+  error - Undefined name 'url' - lib\data\models\video_model.dart:78:14 - undefined_identifier
+  error - Undefined name 'uploaderUrl' - lib\data\models\video_model.dart:83:23 - undefined_identifier
+  error - Undefined name 'likeCount' - lib\data\models\video_model.dart:85:21 - undefined_identifier
+  error - Undefined name 'dislikeCount' - lib\data\models\video_model.dart:86:24 - undefined_identifier
+  error - Undefined name 'ageRestricted' - lib\data\models\video_model.dart:94:25 - undefined_identifier
+  error - Undefined name 'subtitles' - lib\data\models\video_model.dart:95:20 - undefined_identifier
+  error - Undefined name 'channelId' - lib\data\models\video_model.dart:96:21 - undefined_identifier
+  error - Undefined name 'channelName' - lib\data\models\video_model.dart:97:23 - undefined_identifier
+  error - Undefined name 'channelSubscriberCount' - lib\data\models\video_model.dart:98:35 - undefined_identifier
+  error - Undefined name 'playlistId' - lib\data\models\video_model.dart:99:22 - undefined_identifier
+  error - Undefined name 'playlistTitle' - lib\data\models\video_model.dart:100:25 - undefined_identifier
+  error - The getter 'url' isn't defined for the type 'Video' - lib\data\models\video_model.dart:110:18 - undefined_getter
+  error - The getter 'uploaderUrl' isn't defined for the type 'Video' - lib\data\models\video_model.dart:115:26 - undefined_getter
+  error - The getter 'likeCount' isn't defined for the type 'Video' - lib\data\models\video_model.dart:117:24 - undefined_getter
+  error - The getter 'dislikeCount' isn't defined for the type 'Video' - lib\data\models\video_model.dart:118:27 - undefined_getter
+  error - The getter 'ageRestricted' isn't defined for the type 'Video' - lib\data\models\video_model.dart:128:28 - undefined_getter
+  error - The getter 'subtitles' isn't defined for the type 'Video' - lib\data\models\video_model.dart:129:24 - undefined_getter
+  error - The getter 'channelId' isn't defined for the type 'Video' - lib\data\models\video_model.dart:130:24 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\data\models\video_model.dart:131:26 - undefined_getter
+  error - The getter 'channelSubscriberCount' isn't defined for the type 'Video' - lib\data\models\video_model.dart:132:37 - undefined_getter
+  error - The getter 'playlistId' isn't defined for the type 'Video' - lib\data\models\video_model.dart:133:25 - undefined_getter
+  error - The getter 'playlistTitle' isn't defined for the type 'Video' - lib\data\models\video_model.dart:134:28 - undefined_getter
+  error - 'VideoModel.copyWith' ('VideoModel Function({bool? ageRestricted, List<VideoFormat>? availableFormats, VideoCategory? category, String? channelId, String? channelName, int? channelSubscriberCount, String? description, int? dislikeCount, int? duration, String? id, bool? isLiveStream, bool? isPrivate, String? language, int? likeCount, String? platform, String? playlistId, String? playlistTitle, List<String>? subtitles, List<String>? tags, String? thumbnailUrl, String? title, DateTime? uploadDate, String? uploader, String? uploaderUrl, String? url, int? viewCount})') isn't a valid override of 'Video.copyWith' ('Video Function({List<VideoFormat>? availableFormats, VideoCategory? category, String? description, Duration? duration, bool? hasSubtitles, String? id, bool? isLiveStream, bool? isPrivate, String? language, Map<String, dynamic>? metadata, String? originalUrl, String? platform, List<String>? tags, String? thumbnailUrl, String? title, DateTime? uploadDate, String? uploader, int? viewCount})') - lib\data\models\video_model.dart:153:14 - invalid_override
+  error - The getter 'url' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:185:24 - undefined_getter
+  error - The argument type 'Object' can't be assigned to the parameter type 'Duration'.  - lib\data\models\video_model.dart:188:17 - argument_type_not_assignable
+  error - The getter 'uploaderUrl' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:190:40 - undefined_getter
+  error - The getter 'likeCount' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:192:36 - undefined_getter
+  error - The getter 'dislikeCount' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:193:42 - undefined_getter
+  error - The getter 'ageRestricted' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:201:44 - undefined_getter
+  error - The getter 'subtitles' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:202:36 - undefined_getter
+  error - The getter 'channelId' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:203:36 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:204:40 - undefined_getter
+  error - The getter 'channelSubscriberCount' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:205:62 - undefined_getter
+  error - The getter 'playlistId' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:206:38 - undefined_getter
+  error - The getter 'playlistTitle' isn't defined for the type 'VideoModel' - lib\data\models\video_model.dart:207:44 - undefined_getter
+  error - The implicitly invoked unnamed constructor from 'VideoFormat' has required parameters - lib\data\models\video_model.dart:214:9 - implicit_super_initializer_missing_arguments
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:224:11 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:225:11 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:226:11 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:227:11 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\data\models\video_model.dart:228:11 - super_formal_parameter_without_associated_named
+  error - The argument type 'String' can't be assigned to the parameter type 'int'.  - lib\data\models\video_model.dart:236:16 - argument_type_not_assignable
+  error - Undefined name 'fps' - lib\data\models\video_model.dart:263:14 - undefined_identifier
+  error - Undefined name 'audioCodec' - lib\data\models\video_model.dart:264:22 - undefined_identifier
+  error - Undefined name 'videoCodec' - lib\data\models\video_model.dart:265:22 - undefined_identifier
+  error - Undefined name 'resolution' - lib\data\models\video_model.dart:266:21 - undefined_identifier
+  error - Undefined name 'aspectRatio' - lib\data\models\video_model.dart:267:23 - undefined_identifier
+  error - The getter 'fps' isn't defined for the type 'VideoFormat' - lib\data\models\video_model.dart:283:19 - undefined_getter
+  error - The getter 'audioCodec' isn't defined for the type 'VideoFormat' - lib\data\models\video_model.dart:284:26 - undefined_getter
+  error - The getter 'videoCodec' isn't defined for the type 'VideoFormat' - lib\data\models\video_model.dart:285:26 - undefined_getter
+  error - The getter 'resolution' isn't defined for the type 'VideoFormat' - lib\data\models\video_model.dart:286:26 - undefined_getter
+  error - The getter 'aspectRatio' isn't defined for the type 'VideoFormat' - lib\data\models\video_model.dart:287:27 - undefined_getter
+  error - 'VideoFormatModel.copyWith' ('VideoFormatModel Function({String? aspectRatio, String? audioCodec, int? bitrate, String? codec, int? fileSize, String? formatId, int? fps, bool? hasAudio, bool? hasVideo, String? quality, String? resolution, FormatType? type, String? url, String? videoCodec})') isn't a valid override of 'VideoFormat.copyWith' ('VideoFormat Function({Map<String, dynamic>? additionalInfo, int? bitrate, String? codec, String? extension, int? fileSize, String? formatId, bool? hasAudio, bool? hasVideo, int? quality, String? qualityLabel, FormatType? type, String? url})') - lib\data\models\video_model.dart:306:20 - invalid_override
+  error - The argument type 'Object' can't be assigned to the parameter type 'int'.  - lib\data\models\video_model.dart:325:16 - argument_type_not_assignable
+  error - The getter 'fps' isn't defined for the type 'VideoFormatModel' - lib\data\models\video_model.dart:332:24 - undefined_getter
+  error - The getter 'audioCodec' isn't defined for the type 'VideoFormatModel' - lib\data\models\video_model.dart:333:38 - undefined_getter
+  error - The getter 'videoCodec' isn't defined for the type 'VideoFormatModel' - lib\data\models\video_model.dart:334:38 - undefined_getter
+  error - The getter 'resolution' isn't defined for the type 'VideoFormatModel' - lib\data\models\video_model.dart:335:38 - undefined_getter
+  error - The getter 'aspectRatio' isn't defined for the type 'VideoFormatModel' - lib\data\models\video_model.dart:336:40 - undefined_getter
+   info - The imported package 'path' isn't a dependency of the importing package - lib\data\repositories\download_repository_impl.dart:4:8 - depend_on_referenced_packages
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\data\repositories\download_repository_impl.dart:99:19 - prefer_const_literals_to_create_immutables
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:319:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:319:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:331:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:331:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:343:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:343:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:355:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:355:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:416:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:416:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:428:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:428:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:440:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:440:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:470:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:470:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:483:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:483:35 - extra_positional_arguments_could_be_named
+   info - Don't invoke 'print' in production code - lib\data\repositories\download_repository_impl.dart:659:7 - avoid_print
+warning - The receiver can't be null, so the null-aware operator '?.' is unnecessary - lib\data\repositories\download_repository_impl.dart:680:35 - invalid_null_aware_operator
+  error - The method 'toLowerCase' isn't defined for the type 'int' - lib\data\repositories\download_repository_impl.dart:680:37 - undefined_method
+warning - The method doesn't override an inherited method - lib\data\repositories\download_repository_impl.dart:710:20 - override_on_non_overriding_member
+warning - The method doesn't override an inherited method - lib\data\repositories\download_repository_impl.dart:718:26 - override_on_non_overriding_member
+warning - The method doesn't override an inherited method - lib\data\repositories\download_repository_impl.dart:726:33 - override_on_non_overriding_member
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\download_repository_impl.dart:731:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\download_repository_impl.dart:731:35 - extra_positional_arguments_could_be_named
+warning - Unused import: '../../core/constants/app_constants.dart' - lib\data\repositories\video_repository_impl.dart:11:8 - unused_import
+  error - Missing concrete implementations of 'abstract class VideoRepository.checkVideoAvailability', 'abstract class VideoRepository.getChannelVideos', and 'abstract class VideoRepository.isUrlSupported' - lib\data\repositories\video_repository_impl.dart:14:7 - non_abstract_class_inherits_abstract_member
+  error - The getter 'failure' isn't defined for the type 'Result<bool>' - lib\data\repositories\video_repository_impl.dart:31:39 - undefined_getter
+  error - The argument type 'String' can't be assigned to the parameter type 'VideoModel'.  - lib\data\repositories\video_repository_impl.dart:53:44 - argument_type_not_assignable
+  error - Too many positional arguments: 1 expected, but 2 found - lib\data\repositories\video_repository_impl.dart:53:49 - extra_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:86:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:86:40 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:90:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:90:40 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:94:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:94:40 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:109:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:109:37 - extra_positional_arguments_could_be_named
+  error - The named parameter 'platform' isn't defined - lib\data\repositories\video_repository_impl.dart:115:9 - undefined_named_parameter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:131:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:131:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:133:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:133:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:135:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:135:36 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:137:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:137:33 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:139:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:139:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getTrendingVideos' ('Future<Result<List<Video>>> Function({String? category, int limit, int page, String? platform})') isn't a valid override of 'VideoRepository.getTrendingVideos' ('Future<Result<List<Video>>> Function({VideoCategory? category, int limit, String? platform})') - lib\data\repositories\video_repository_impl.dart:144:31 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:153:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:153:40 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:157:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:157:40 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:172:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:172:37 - extra_positional_arguments_could_be_named
+  error - The named parameter 'platform' isn't defined - lib\data\repositories\video_repository_impl.dart:177:9 - undefined_named_parameter
+  error - The argument type 'String' can't be assigned to the parameter type 'List<VideoModel>'.  - lib\data\repositories\video_repository_impl.dart:184:49 - argument_type_not_assignable
+  error - The argument type 'List<VideoModel>' can't be assigned to the parameter type 'String'.  - lib\data\repositories\video_repository_impl.dart:184:59 - argument_type_not_assignable
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:194:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:194:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:196:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:196:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:198:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:198:36 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:200:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:200:33 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:202:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:202:35 - extra_positional_arguments_could_be_named
+warning - The method doesn't override an inherited method - lib\data\repositories\video_repository_impl.dart:207:24 - override_on_non_overriding_member
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:210:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:210:33 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:216:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:216:33 - extra_positional_arguments_could_be_named
+  error - The getter 'failure' isn't defined for the type 'Result<List<String>>' - lib\data\repositories\video_repository_impl.dart:222:41 - undefined_getter
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:230:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:230:38 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:242:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:242:31 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:244:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:244:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:246:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:246:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getSupportedPlatforms' ('Future<Result<List<String>>> Function()') isn't a valid override of 'VideoRepository.getSupportedPlatforms' ('List<String> Function()') - lib\data\repositories\video_repository_impl.dart:251:32 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:265:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:265:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getVideoFormats' ('Future<Result<List<VideoFormat>>> Function(String)') isn't a valid override of 'VideoRepository.getVideoFormats' ('Future<InvalidType> Function({required String platform, required String videoId})') - lib\data\repositories\video_repository_impl.dart:270:37 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:274:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:274:37 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:280:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:280:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:282:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:282:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:284:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:284:43 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:286:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:286:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getVideoSubtitles' ('Future<Result<List<String>>> Function(String)') isn't a valid override of 'VideoRepository.getVideoSubtitles' ('Future<InvalidType> Function({String language, required String platform, required String videoId})') - lib\data\repositories\video_repository_impl.dart:291:32 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:295:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:295:37 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:301:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:301:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:303:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:303:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:305:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:305:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getRelatedVideos' ('Future<Result<List<Video>>> Function(String)') isn't a valid override of 'VideoRepository.getRelatedVideos' ('Future<InvalidType> Function({int limit, required String platform, required String videoId})') - lib\data\repositories\video_repository_impl.dart:310:31 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:314:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:314:37 - extra_positional_arguments_could_be_named
+  error - 2 positional arguments expected by 'getRelatedVideos', but 1 found - lib\data\repositories\video_repository_impl.dart:317:76 - not_enough_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:320:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:320:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:322:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:322:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:324:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:324:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getVideoComments' ('Future<Result<List<Map<String, dynamic>>>> Function(String)') isn't a valid override of 'VideoRepository.getVideoComments' ('Future<InvalidType> Function({int limit, required String platform, required String videoId})') - lib\data\repositories\video_repository_impl.dart:329:46 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:333:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:333:37 - extra_positional_arguments_could_be_named
+  error - 2 positional arguments expected by 'getVideoComments', but 1 found - lib\data\repositories\video_repository_impl.dart:336:71 - not_enough_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:339:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:339:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:341:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:341:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:343:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:343:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getChannelInfo' ('Future<Result<Map<String, dynamic>>> Function(String)') isn't a valid override of 'VideoRepository.getChannelInfo' ('Future<InvalidType> Function({required String channelId, required String platform})') - lib\data\repositories\video_repository_impl.dart:348:40 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:352:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:352:37 - extra_positional_arguments_could_be_named
+  error - 2 positional arguments expected by 'getChannelInfo', but 1 found - lib\data\repositories\video_repository_impl.dart:355:74 - not_enough_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:358:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:358:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:360:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:360:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:362:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:362:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getPlaylistInfo' ('Future<Result<Map<String, dynamic>>> Function(String)') isn't a valid override of 'VideoRepository.getPlaylistInfo' ('Future<InvalidType> Function({required String platform, required String playlistId})') - lib\data\repositories\video_repository_impl.dart:367:40 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:371:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:371:37 - extra_positional_arguments_could_be_named
+  error - 2 positional arguments expected by 'getPlaylistInfo', but 1 found - lib\data\repositories\video_repository_impl.dart:374:77 - not_enough_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:377:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:377:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:379:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:379:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:381:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:381:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.refreshVideoInfo' ('Future<Result<Video>> Function(String)') isn't a valid override of 'VideoRepository.refreshVideoInfo' ('Future<InvalidType> Function(Video)') - lib\data\repositories\video_repository_impl.dart:386:25 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:390:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:390:37 - extra_positional_arguments_could_be_named
+  error - The method 'clearVideoCache' isn't defined for the type 'VideoLocalDataSource' - lib\data\repositories\video_repository_impl.dart:394:29 - undefined_method
+  error - The argument type 'String' can't be assigned to the parameter type 'VideoModel'.  - lib\data\repositories\video_repository_impl.dart:400:44 - argument_type_not_assignable
+  error - Too many positional arguments: 1 expected, but 2 found - lib\data\repositories\video_repository_impl.dart:400:53 - extra_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:404:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:404:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:406:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:406:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:408:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:408:33 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:410:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:410:35 - extra_positional_arguments_could_be_named
+warning - The method doesn't override an inherited method - lib\data\repositories\video_repository_impl.dart:415:24 - override_on_non_overriding_member
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:419:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:419:37 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:425:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:425:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:427:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:427:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:429:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:429:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getVideoThumbnails' ('Future<Result<List<String>>> Function(String)') isn't a valid override of 'VideoRepository.getVideoThumbnails' ('Future<InvalidType> Function({required String platform, String size, required String videoId})') - lib\data\repositories\video_repository_impl.dart:434:32 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:438:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:438:37 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:444:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:444:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:446:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:446:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:448:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:448:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.reportVideo' ('Future<Result<bool>> Function(String, String)') isn't a valid override of 'VideoRepository.reportVideo' ('Future<InvalidType> Function({required String platform, required String reason, required String videoId})') - lib\data\repositories\video_repository_impl.dart:453:24 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:457:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:457:37 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:461:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:461:40 - extra_positional_arguments_could_be_named
+  error - 3 positional arguments expected by 'reportVideo', but 2 found - lib\data\repositories\video_repository_impl.dart:464:73 - not_enough_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:467:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:467:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:469:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:469:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:471:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:471:35 - extra_positional_arguments_could_be_named
+  error - 'VideoRepositoryImpl.getVideoAnalytics' ('Future<Result<Map<String, dynamic>>> Function(String)') isn't a valid override of 'VideoRepository.getVideoAnalytics' ('Future<InvalidType> Function({required String platform, required String videoId})') - lib\data\repositories\video_repository_impl.dart:476:40 - invalid_override
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:480:22 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:480:37 - extra_positional_arguments_could_be_named
+  error - 2 positional arguments expected by 'getVideoAnalytics', but 1 found - lib\data\repositories\video_repository_impl.dart:483:73 - not_enough_positional_arguments
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:486:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:486:35 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:488:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:488:34 - extra_positional_arguments_could_be_named
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\data\repositories\video_repository_impl.dart:490:20 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\data\repositories\video_repository_impl.dart:490:35 - extra_positional_arguments_could_be_named
+warning - The value of the local variable 'cacheValidDuration' isn't used - lib\data\repositories\video_repository_impl.dart:498:11 - unused_local_variable
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:72:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:83:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:95:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:107:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:118:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:129:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:140:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:149:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:155:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:163:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:175:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:186:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:201:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:212:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:218:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:224:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:230:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:235:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:240:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:245:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:251:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:258:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:279:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:287:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:293:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:301:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:306:10 - non_type_as_type_argument
+  error - The name 'Either' isn't a type, so it can't be used as a type argument - lib\domain\repositories\video_repository.dart:312:10 - non_type_as_type_argument
+  error - The named parameter 'platforms' isn't defined - lib\domain\usecases\search_videos.dart:70:9 - undefined_named_parameter
+  error - The named parameter 'page' isn't defined - lib\domain\usecases\search_videos.dart:71:9 - undefined_named_parameter
+  error - The named parameter 'sortBy' isn't defined - lib\domain\usecases\search_videos.dart:73:9 - undefined_named_parameter
+  error - The named parameter 'filters' isn't defined - lib\domain\usecases\search_videos.dart:74:9 - undefined_named_parameter
+  error - The named parameter 'platforms' isn't defined - lib\domain\usecases\search_videos.dart:137:9 - undefined_named_parameter
+  error - The argument type 'String?' can't be assigned to the parameter type 'VideoCategory?'.  - lib\domain\usecases\search_videos.dart:138:19 - argument_type_not_assignable
+  error - The named parameter 'region' isn't defined - lib\domain\usecases\search_videos.dart:139:9 - undefined_named_parameter
+  error - The named parameter 'page' isn't defined - lib\domain\usecases\search_videos.dart:140:9 - undefined_named_parameter
+  error - The method 'validateUrl' isn't defined for the type 'VideoRepository' - lib\domain\usecases\search_videos.dart:196:39 - undefined_method
+  error - Target of URI doesn't exist: '../../../domain/usecases/start_download.dart' - lib\presentation\blocs\download\download_bloc.dart:4:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/pause_download.dart' - lib\presentation\blocs\download\download_bloc.dart:5:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/resume_download.dart' - lib\presentation\blocs\download\download_bloc.dart:6:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/cancel_download.dart' - lib\presentation\blocs\download\download_bloc.dart:7:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/retry_download.dart' - lib\presentation\blocs\download\download_bloc.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/get_all_downloads.dart' - lib\presentation\blocs\download\download_bloc.dart:9:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/get_active_downloads.dart' - lib\presentation\blocs\download\download_bloc.dart:10:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/get_completed_downloads.dart' - lib\presentation\blocs\download\download_bloc.dart:11:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/get_download_by_id.dart' - lib\presentation\blocs\download\download_bloc.dart:12:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/delete_download.dart' - lib\presentation\blocs\download\download_bloc.dart:13:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/watch_download_progress.dart' - lib\presentation\blocs\download\download_bloc.dart:14:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/update_download_metadata.dart' - lib\presentation\blocs\download\download_bloc.dart:15:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/get_download_statistics.dart' - lib\presentation\blocs\download\download_bloc.dart:16:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/clear_completed_downloads.dart' - lib\presentation\blocs\download\download_bloc.dart:17:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/set_max_concurrent_downloads.dart' - lib\presentation\blocs\download\download_bloc.dart:18:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/get_download_queue.dart' - lib\presentation\blocs\download\download_bloc.dart:19:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../domain/usecases/reorder_download_queue.dart' - lib\presentation\blocs\download\download_bloc.dart:20:8 - uri_does_not_exist
+  error - Undefined class 'StartDownload' - lib\presentation\blocs\download\download_bloc.dart:28:9 - undefined_class
+  error - Undefined class 'PauseDownload' - lib\presentation\blocs\download\download_bloc.dart:29:9 - undefined_class
+  error - Undefined class 'ResumeDownload' - lib\presentation\blocs\download\download_bloc.dart:30:9 - undefined_class
+  error - Undefined class 'CancelDownload' - lib\presentation\blocs\download\download_bloc.dart:31:9 - undefined_class
+  error - Undefined class 'RetryDownload' - lib\presentation\blocs\download\download_bloc.dart:32:9 - undefined_class
+  error - Undefined class 'GetAllDownloads' - lib\presentation\blocs\download\download_bloc.dart:33:9 - undefined_class
+  error - Undefined class 'GetActiveDownloads' - lib\presentation\blocs\download\download_bloc.dart:34:9 - undefined_class
+  error - Undefined class 'GetCompletedDownloads' - lib\presentation\blocs\download\download_bloc.dart:35:9 - undefined_class
+  error - Undefined class 'GetDownloadById' - lib\presentation\blocs\download\download_bloc.dart:36:9 - undefined_class
+  error - Undefined class 'DeleteDownload' - lib\presentation\blocs\download\download_bloc.dart:37:9 - undefined_class
+  error - Undefined class 'WatchDownloadProgress' - lib\presentation\blocs\download\download_bloc.dart:38:9 - undefined_class
+  error - Undefined class 'UpdateDownloadMetadata' - lib\presentation\blocs\download\download_bloc.dart:39:9 - undefined_class
+  error - Undefined class 'GetDownloadStatistics' - lib\presentation\blocs\download\download_bloc.dart:40:9 - undefined_class
+  error - Undefined class 'ClearCompletedDownloads' - lib\presentation\blocs\download\download_bloc.dart:41:9 - undefined_class
+  error - Undefined class 'SetMaxConcurrentDownloads' - lib\presentation\blocs\download\download_bloc.dart:42:9 - undefined_class
+  error - Undefined class 'GetDownloadQueue' - lib\presentation\blocs\download\download_bloc.dart:43:9 - undefined_class
+  error - Undefined class 'ReorderDownloadQueue' - lib\presentation\blocs\download\download_bloc.dart:44:9 - undefined_class
+  error - Undefined class 'StartDownload' - lib\presentation\blocs\download\download_bloc.dart:51:14 - undefined_class
+  error - Undefined class 'PauseDownload' - lib\presentation\blocs\download\download_bloc.dart:52:14 - undefined_class
+  error - Undefined class 'ResumeDownload' - lib\presentation\blocs\download\download_bloc.dart:53:14 - undefined_class
+  error - Undefined class 'CancelDownload' - lib\presentation\blocs\download\download_bloc.dart:54:14 - undefined_class
+  error - Undefined class 'RetryDownload' - lib\presentation\blocs\download\download_bloc.dart:55:14 - undefined_class
+  error - Undefined class 'GetAllDownloads' - lib\presentation\blocs\download\download_bloc.dart:56:14 - undefined_class
+  error - Undefined class 'GetActiveDownloads' - lib\presentation\blocs\download\download_bloc.dart:57:14 - undefined_class
+  error - Undefined class 'GetCompletedDownloads' - lib\presentation\blocs\download\download_bloc.dart:58:14 - undefined_class
+  error - Undefined class 'GetDownloadById' - lib\presentation\blocs\download\download_bloc.dart:59:14 - undefined_class
+  error - Undefined class 'DeleteDownload' - lib\presentation\blocs\download\download_bloc.dart:60:14 - undefined_class
+  error - Undefined class 'WatchDownloadProgress' - lib\presentation\blocs\download\download_bloc.dart:61:14 - undefined_class
+  error - Undefined class 'UpdateDownloadMetadata' - lib\presentation\blocs\download\download_bloc.dart:62:14 - undefined_class
+  error - Undefined class 'GetDownloadStatistics' - lib\presentation\blocs\download\download_bloc.dart:63:14 - undefined_class
+  error - Undefined class 'ClearCompletedDownloads' - lib\presentation\blocs\download\download_bloc.dart:64:14 - undefined_class
+  error - Undefined class 'SetMaxConcurrentDownloads' - lib\presentation\blocs\download\download_bloc.dart:65:14 - undefined_class
+  error - Undefined class 'GetDownloadQueue' - lib\presentation\blocs\download\download_bloc.dart:66:14 - undefined_class
+  error - Undefined class 'ReorderDownloadQueue' - lib\presentation\blocs\download\download_bloc.dart:67:14 - undefined_class
+  error - The method 'StartDownloadParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:132:41 - undefined_method
+  error - The method 'PauseDownloadParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:155:41 - undefined_method
+  error - The method 'ResumeDownloadParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:173:42 - undefined_method
+  error - The method 'CancelDownloadParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:191:42 - undefined_method
+  error - The method 'RetryDownloadParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:218:41 - undefined_method
+  error - The method 'DeleteDownloadParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:236:42 - undefined_method
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:260:49 - creation_with_non_type
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:281:52 - creation_with_non_type
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:299:55 - creation_with_non_type
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:319:49 - creation_with_non_type
+  error - Undefined name 'DownloadStatus' - lib\presentation\blocs\download\download_bloc.dart:328:53 - undefined_identifier
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:342:49 - creation_with_non_type
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:368:49 - creation_with_non_type
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:394:49 - creation_with_non_type
+  error - The method 'GetDownloadByIdParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:423:43 - undefined_method
+  error - The method 'UpdateDownloadMetadataParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:441:50 - undefined_method
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:462:55 - creation_with_non_type
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:478:57 - creation_with_non_type
+  error - The method 'SetMaxConcurrentDownloadsParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:515:53 - undefined_method
+  error - The name 'NoParams' isn't a class - lib\presentation\blocs\download\download_bloc.dart:533:50 - creation_with_non_type
+  error - The method 'ReorderDownloadQueueParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:549:48 - undefined_method
+  error - The method 'WatchDownloadProgressParams' isn't defined for the type 'DownloadBloc' - lib\presentation\blocs\download\download_bloc.dart:602:57 - undefined_method
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\download\download_bloc.dart:625:24 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\download\download_bloc.dart:676:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\download\download_bloc.dart:697:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\download\download_bloc.dart:716:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\download\download_bloc.dart:735:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\download\download_bloc.dart:754:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\download\download_bloc.dart:774:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\download\download_bloc.dart:793:18 - missing_required_argument
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\download\download_bloc.dart:816:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\download\download_bloc.dart:818:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\download\download_bloc.dart:820:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\download\download_bloc.dart:822:12 - type_literal_in_constant_pattern
+  error - Undefined name 'NotFoundFailure' - lib\presentation\blocs\download\download_bloc.dart:824:12 - undefined_identifier
+  error - Undefined name 'UnsupportedFormatFailure' - lib\presentation\blocs\download\download_bloc.dart:826:12 - undefined_identifier
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\download\download_bloc.dart:828:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\download\download_bloc.dart:830:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\download\download_bloc.dart:832:12 - type_literal_in_constant_pattern
+  error - Undefined class 'VideoModel' - lib\presentation\blocs\download\download_event.dart:16:9 - undefined_class
+  error - Undefined class 'VideoFormatModel' - lib\presentation\blocs\download\download_event.dart:17:9 - undefined_class
+  error - Undefined class 'DownloadModel' - lib\presentation\blocs\download\download_state.dart:31:9 - undefined_class
+  error - Undefined class 'DownloadModel' - lib\presentation\blocs\download\download_state.dart:75:9 - undefined_class
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:127:14 - non_type_as_type_argument
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:139:10 - non_type_as_type_argument
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:151:14 - non_type_as_type_argument
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:161:14 - non_type_as_type_argument
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:171:14 - non_type_as_type_argument
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:181:14 - non_type_as_type_argument
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:195:14 - non_type_as_type_argument
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:209:14 - non_type_as_type_argument
+  error - Undefined class 'DownloadModel' - lib\presentation\blocs\download\download_state.dart:223:9 - undefined_class
+  error - Undefined class 'DownloadStatsModel' - lib\presentation\blocs\download\download_state.dart:243:9 - undefined_class
+  error - The name 'DownloadModel' isn't a type, so it can't be used as a type argument - lib\presentation\blocs\download\download_state.dart:297:14 - non_type_as_type_argument
+warning - The value of the field '_searchCurrentPage' isn't used - lib\presentation\blocs\search\search_bloc.dart:20:7 - unused_field
+warning - The value of the field '_trendingCurrentPage' isn't used - lib\presentation\blocs\search\search_bloc.dart:21:7 - unused_field
+  error - The named parameter 'platform' isn't defined - lib\presentation\blocs\search\search_bloc.dart:64:7 - undefined_named_parameter
+  error - The method 'fold' isn't defined for the type 'Result' - lib\presentation\blocs\search\search_bloc.dart:69:12 - undefined_method
+  error - The named parameter 'platform' isn't defined - lib\presentation\blocs\search\search_bloc.dart:103:7 - undefined_named_parameter
+  error - The method 'fold' isn't defined for the type 'Result' - lib\presentation\blocs\search\search_bloc.dart:109:12 - undefined_method
+  error - The named parameter 'platform' isn't defined - lib\presentation\blocs\search\search_bloc.dart:139:7 - undefined_named_parameter
+  error - The method 'fold' isn't defined for the type 'Result' - lib\presentation\blocs\search\search_bloc.dart:144:12 - undefined_method
+  error - The argument type 'List<dynamic>' can't be assigned to the parameter type 'List<Video>?'.  - lib\presentation\blocs\search\search_bloc.dart:152:19 - argument_type_not_assignable
+  error - The named parameter 'platform' isn't defined - lib\presentation\blocs\search\search_bloc.dart:175:7 - undefined_named_parameter
+  error - The method 'fold' isn't defined for the type 'Result' - lib\presentation\blocs\search\search_bloc.dart:181:12 - undefined_method
+  error - The argument type 'List<dynamic>' can't be assigned to the parameter type 'List<Video>?'.  - lib\presentation\blocs\search\search_bloc.dart:189:19 - argument_type_not_assignable
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\search\search_bloc.dart:306:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\search\search_bloc.dart:331:18 - missing_required_argument
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\search\search_bloc.dart:378:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\search\search_bloc.dart:380:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\search\search_bloc.dart:382:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\search\search_bloc.dart:384:12 - type_literal_in_constant_pattern
+  error - Undefined name 'NotFoundFailure' - lib\presentation\blocs\search\search_bloc.dart:386:12 - undefined_identifier
+  error - Undefined name 'UnsupportedFormatFailure' - lib\presentation\blocs\search\search_bloc.dart:388:12 - undefined_identifier
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\search\search_bloc.dart:390:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\search\search_bloc.dart:392:12 - type_literal_in_constant_pattern
+   info - Unnecessary override - lib\presentation\blocs\search\search_bloc.dart:400:16 - unnecessary_overrides
+  error - The method 'saveToBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:84:25 - undefined_method
+  error - The getter 'settings' isn't defined for the type 'UpdateDownloadSettingsEvent' - lib\presentation\blocs\settings\settings_bloc.dart:84:74 - undefined_getter
+  error - The getter 'settings' isn't defined for the type 'UpdateDownloadSettingsEvent' - lib\presentation\blocs\settings\settings_bloc.dart:86:52 - undefined_getter
+  error - The method 'saveToBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:105:25 - undefined_method
+  error - The getter 'settings' isn't defined for the type 'UpdateVideoPlayerSettingsEvent' - lib\presentation\blocs\settings\settings_bloc.dart:105:78 - undefined_getter
+  error - The getter 'settings' isn't defined for the type 'UpdateVideoPlayerSettingsEvent' - lib\presentation\blocs\settings\settings_bloc.dart:107:55 - undefined_getter
+  error - The method 'saveToBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:141:25 - undefined_method
+  error - The method 'saveToBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:176:25 - undefined_method
+  error - The method 'saveToBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:212:25 - undefined_method
+  error - The method 'saveToBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:246:25 - undefined_method
+  error - The method 'removeFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:269:29 - undefined_method
+  error - The method 'removeFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:272:29 - undefined_method
+  error - The method 'removeFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:275:29 - undefined_method
+  error - The method 'removeFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:278:29 - undefined_method
+  error - The method 'removeFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:281:29 - undefined_method
+  error - The method 'removeFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:284:29 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:287:29 - undefined_method
+  error - The method 'getAllFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:311:45 - undefined_method
+warning - The value of the local variable 'content' isn't used - lib\presentation\blocs\settings\settings_bloc.dart:339:13 - unused_local_variable
+  error - The method 'getBoxSize' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:368:43 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:369:29 - undefined_method
+  error - The method 'getBoxSize' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:372:43 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:373:29 - undefined_method
+  error - The method 'getBoxSize' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:376:43 - undefined_method
+  error - The method 'getBoxSize' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:377:33 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:378:29 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:379:29 - undefined_method
+  error - The method 'getBoxLength' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:406:44 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:407:29 - undefined_method
+  error - The method 'getBoxLength' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:410:44 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:411:29 - undefined_method
+  error - The method 'getBoxLength' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:414:44 - undefined_method
+  error - The method 'getBoxLength' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:415:33 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:416:29 - undefined_method
+  error - The method 'clearBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:417:29 - undefined_method
+  error - The getter 'downloadPath' isn't defined for the type 'DownloadUpdateEvent' - lib\presentation\blocs\settings\settings_bloc.dart:524:25 - undefined_getter
+   info - Use 'const' for final variables initialized to a constant value - lib\presentation\blocs\settings\settings_bloc.dart:567:7 - prefer_const_declarations
+   info - Use 'const' for final variables initialized to a constant value - lib\presentation\blocs\settings\settings_bloc.dart:568:7 - prefer_const_declarations
+  error - The method 'getBoxSize' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:572:40 - undefined_method
+  error - The method 'getBoxSize' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:573:36 - undefined_method
+  error - The method 'getBoxSize' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:574:39 - undefined_method
+  error - The method 'getFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:749:30 - undefined_method
+  error - The method 'getFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:762:30 - undefined_method
+  error - The method 'getFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:775:30 - undefined_method
+  error - The method 'getFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:787:30 - undefined_method
+  error - The method 'getFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:799:30 - undefined_method
+  error - The method 'getFromBox' isn't defined for the type 'HiveHelper' - lib\presentation\blocs\settings\settings_bloc.dart:812:30 - undefined_method
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\settings\settings_bloc.dart:825:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\settings\settings_bloc.dart:827:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\settings\settings_bloc.dart:829:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\settings\settings_bloc.dart:831:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\settings\settings_bloc.dart:833:12 - type_literal_in_constant_pattern
+  error - Undefined name 'NotFoundFailure' - lib\presentation\blocs\settings\settings_bloc.dart:835:12 - undefined_identifier
+  error - Undefined name 'TimeoutFailure' - lib\presentation\blocs\settings\settings_bloc.dart:837:12 - undefined_identifier
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\settings\settings_bloc.dart:839:12 - type_literal_in_constant_pattern
+   info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\presentation\blocs\theme\theme_bloc.dart:6:8 - unnecessary_import
+   info - Uses 'await' on an instance of 'int?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:123:30 - await_only_futures
+   info - Uses 'await' on an instance of 'bool?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:127:38 - await_only_futures
+   info - Uses 'await' on an instance of 'bool?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:128:37 - await_only_futures
+   info - Uses 'await' on an instance of 'bool?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:129:35 - await_only_futures
+   info - Uses 'await' on an instance of 'Map<String, dynamic>?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:135:30 - await_only_futures
+   info - Uses 'await' on an instance of 'Map<String, dynamic>?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:143:29 - await_only_futures
+   info - Uses 'await' on an instance of 'String?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:152:26 - await_only_futures
+   info - Uses 'await' on an instance of 'double?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:153:24 - await_only_futures
+   info - Uses 'await' on an instance of 'int?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:154:31 - await_only_futures
+   info - Uses 'await' on an instance of 'int?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:158:33 - await_only_futures
+   info - Uses 'await' on an instance of 'int?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:159:32 - await_only_futures
+   info - Uses 'await' on an instance of 'int?', which is not a subtype of 'Future' - lib\presentation\blocs\theme\theme_bloc.dart:160:36 - await_only_futures
+warning - The value of the local variable 'themeData' isn't used - lib\presentation\blocs\theme\theme_bloc.dart:541:13 - unused_local_variable
+  error - The method 'fold' isn't defined for the type 'Result' - lib\presentation\blocs\video\video_bloc.dart:47:12 - undefined_method
+  error - The method 'ValidateVideoUrlParams' isn't defined for the type 'VideoBloc' - lib\presentation\blocs\video\video_bloc.dart:61:44 - undefined_method
+  error - The method 'fold' isn't defined for the type 'Result' - lib\presentation\blocs\video\video_bloc.dart:63:12 - undefined_method
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:90:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:109:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:128:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:147:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:166:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:185:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:204:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:226:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:245:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:264:18 - missing_required_argument
+  error - The named parameter 'message' is required, but there's no corresponding argument - lib\presentation\blocs\video\video_bloc.dart:283:18 - missing_required_argument
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\video\video_bloc.dart:308:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\video\video_bloc.dart:310:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\video\video_bloc.dart:312:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\video\video_bloc.dart:314:12 - type_literal_in_constant_pattern
+  error - Undefined name 'NotFoundFailure' - lib\presentation\blocs\video\video_bloc.dart:316:12 - undefined_identifier
+  error - Undefined name 'UnsupportedFormatFailure' - lib\presentation\blocs\video\video_bloc.dart:318:12 - undefined_identifier
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\video\video_bloc.dart:320:12 - type_literal_in_constant_pattern
+   info - Use 'TypeName _' instead of a type literal - lib\presentation\blocs\video\video_bloc.dart:322:12 - type_literal_in_constant_pattern
+   info - Unnecessary override - lib\presentation\blocs\video\video_bloc.dart:330:16 - unnecessary_overrides
+   info - Parameter 'key' could be a super parameter - lib\presentation\screens\downloads\downloads_screen.dart:10:9 - use_super_parameters
+   info - The private field _selectedFilter could be 'final' - lib\presentation\screens\downloads\downloads_screen.dart:21:10 - prefer_final_fields
+warning - The value of the field '_selectedFilter' isn't used - lib\presentation\screens\downloads\downloads_screen.dart:21:10 - unused_field
+warning - The value of the field '_filterOptions' isn't used - lib\presentation\screens\downloads\downloads_screen.dart:26:22 - unused_field
+  error - The name 'GetAllDownloadsEvent' isn't a class - lib\presentation\screens\downloads\downloads_screen.dart:63:46 - creation_with_non_type
+  error - The name 'GetDownloadStatisticsEvent' isn't a class - lib\presentation\screens\downloads\downloads_screen.dart:64:46 - creation_with_non_type
+  error - The name 'DownloadState' isn't a type, so it can't be used as a type argument - lib\presentation\screens\downloads\downloads_screen.dart:110:43 - non_type_as_type_argument
+  error - The name 'DownloadStatisticsLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\downloads\downloads_screen.dart:112:34 - type_test_with_undefined_name
+  error - The name 'DownloadState' isn't a type, so it can't be used as a type argument - lib\presentation\screens\downloads\downloads_screen.dart:331:38 - non_type_as_type_argument
+  error - The name 'DownloadLoading' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\downloads\downloads_screen.dart:333:22 - type_test_with_undefined_name
+  error - The name 'DownloadError' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\downloads\downloads_screen.dart:341:22 - type_test_with_undefined_name
+  error - There's no constant named 'generic' in 'ErrorType' - lib\presentation\screens\downloads\downloads_screen.dart:345:31 - undefined_enum_constant
+  error - The method 'GetDownloadsByStatusEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:349:21 - undefined_method
+  error - The name 'GetAllDownloadsEvent' isn't a class - lib\presentation\screens\downloads\downloads_screen.dart:352:58 - creation_with_non_type
+  error - The name 'DownloadsLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\downloads\downloads_screen.dart:359:22 - type_test_with_undefined_name
+  error - The name 'RefreshDownloadsEvent' isn't a class - lib\presentation\screens\downloads\downloads_screen.dart:368:54 - creation_with_non_type
+  error - The getter 'platform' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:520:42 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:526:35 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:526:53 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:529:35 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:529:57 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:533:31 - undefined_getter
+  error - The getter 'downloadedSize' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:533:49 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:533:68 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:534:31 - undefined_getter
+  error - The getter 'downloadedSize' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:534:49 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:534:68 - undefined_getter
+  error - The getter 'platform' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:539:35 - undefined_getter
+  error - The getter 'platform' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:539:56 - undefined_getter
+  error - The name 'ClearDownloadsEvent' isn't a class - lib\presentation\screens\downloads\downloads_screen.dart:580:52 - creation_with_non_type
+warning - The value of the local variable 'theme' isn't used - lib\presentation\screens\downloads\downloads_screen.dart:601:11 - unused_local_variable
+  error - The method 'SearchDownloadsEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:617:15 - undefined_method
+  error - The method 'SearchDownloadsEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:633:17 - undefined_method
+  error - The method 'StartDownloadEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:685:17 - undefined_method
+  error - The getter 'title' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:725:50 - undefined_getter
+  error - The method 'PauseDownloadEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:730:38 - undefined_method
+  error - The method 'ResumeDownloadEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:734:38 - undefined_method
+  error - The method 'CancelDownloadEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:742:42 - undefined_method
+  error - The method 'RetryDownloadEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:748:38 - undefined_method
+  error - The method 'DeleteDownloadEvent' isn't defined for the type '_DownloadsScreenState' - lib\presentation\screens\downloads\downloads_screen.dart:756:42 - undefined_method
+  error - The getter 'fileName' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:764:50 - undefined_getter
+  error - The getter 'filePath' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:771:58 - undefined_getter
+  error - The getter 'fileName' isn't defined for the type 'Download' - lib\presentation\screens\downloads\downloads_screen.dart:778:50 - undefined_getter
+   info - Parameter 'key' could be a super parameter - lib\presentation\screens\home\home_screen.dart:16:9 - use_super_parameters
+  error - The name 'GetTrendingVideosEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:42:44 - creation_with_non_type
+  error - The name 'ThemeState' isn't a type, so it can't be used as a type argument - lib\presentation\screens\home\home_screen.dart:98:32 - non_type_as_type_argument
+  error - The name 'ThemeLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\home\home_screen.dart:100:37 - type_test_with_undefined_name
+  error - The name 'ToggleThemeEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:103:53 - creation_with_non_type
+  error - The name 'SearchState' isn't a type, so it can't be used as a type argument - lib\presentation\screens\home\home_screen.dart:150:40 - non_type_as_type_argument
+  error - The name 'SearchSuggestionsLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\home\home_screen.dart:155:26 - type_test_with_undefined_name
+  error - The name 'SearchHistoryLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\home\home_screen.dart:158:26 - type_test_with_undefined_name
+  error - The method 'SearchVideosEvent' isn't defined for the type '_HomeScreenState' - lib\presentation\screens\home\home_screen.dart:167:48 - undefined_method
+  error - The method 'GetSearchSuggestionsEvent' isn't defined for the type '_HomeScreenState' - lib\presentation\screens\home\home_screen.dart:173:21 - undefined_method
+  error - The method 'RemoveSearchFromHistoryEvent' isn't defined for the type '_HomeScreenState' - lib\presentation\screens\home\home_screen.dart:179:19 - undefined_method
+  error - The name 'ClearSearchHistoryEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:183:54 - creation_with_non_type
+  error - The name 'SearchState' isn't a type, so it can't be used as a type argument - lib\presentation\screens\home\home_screen.dart:193:36 - non_type_as_type_argument
+  error - The name 'SearchLoading' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\home\home_screen.dart:195:22 - type_test_with_undefined_name
+  error - The name 'SearchError' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\home\home_screen.dart:203:22 - type_test_with_undefined_name
+  error - The name 'GetTrendingVideosEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:209:54 - creation_with_non_type
+  error - The name 'TrendingVideosLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\home\home_screen.dart:215:22 - type_test_with_undefined_name
+  error - The name 'GetTrendingVideosEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:223:54 - creation_with_non_type
+  error - The name 'RefreshTrendingVideosEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:230:52 - creation_with_non_type
+  error - The name 'GetTrendingVideosEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:288:50 - creation_with_non_type
+  error - The method 'UpdateTrendingCategoryEvent' isn't defined for the type '_HomeScreenState' - lib\presentation\screens\home\home_screen.dart:327:21 - undefined_method
+  error - The name 'RefreshTrendingVideosEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:439:50 - creation_with_non_type
+  error - The name 'RefreshDownloadsEvent' isn't a class - lib\presentation\screens\home\home_screen.dart:442:52 - creation_with_non_type
+  error - The method 'StartDownloadEvent' isn't defined for the type '_HomeScreenState' - lib\presentation\screens\home\home_screen.dart:666:7 - undefined_method
+   info - Parameter 'key' could be a super parameter - lib\presentation\screens\search\search_screen.dart:10:9 - use_super_parameters
+  error - The name 'GetSearchHistoryEvent' isn't a class - lib\presentation\screens\search\search_screen.dart:69:44 - creation_with_non_type
+  error - The name 'LoadMoreSearchResultsEvent' isn't a class - lib\presentation\screens\search\search_screen.dart:81:44 - creation_with_non_type
+  error - The method 'SearchVideosEvent' isn't defined for the type '_SearchScreenState' - lib\presentation\screens\search\search_screen.dart:100:7 - undefined_method
+  error - The method 'AddSearchToHistoryEvent' isn't defined for the type '_SearchScreenState' - lib\presentation\screens\search\search_screen.dart:111:7 - undefined_method
+  error - The method 'SearchVideosEvent' isn't defined for the type '_SearchScreenState' - lib\presentation\screens\search\search_screen.dart:118:9 - undefined_method
+  error - The name 'SearchState' isn't a type, so it can't be used as a type argument - lib\presentation\screens\search\search_screen.dart:147:38 - non_type_as_type_argument
+  error - The name 'SearchSuggestionsLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\search\search_screen.dart:152:24 - type_test_with_undefined_name
+  error - The name 'SearchHistoryLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\search\search_screen.dart:155:24 - type_test_with_undefined_name
+  error - The method 'GetSearchSuggestionsEvent' isn't defined for the type '_SearchScreenState' - lib\presentation\screens\search\search_screen.dart:168:19 - undefined_method
+  error - The method 'RemoveSearchFromHistoryEvent' isn't defined for the type '_SearchScreenState' - lib\presentation\screens\search\search_screen.dart:174:17 - undefined_method
+  error - The name 'ClearSearchHistoryEvent' isn't a class - lib\presentation\screens\search\search_screen.dart:178:52 - creation_with_non_type
+  error - The name 'SearchState' isn't a type, so it can't be used as a type argument - lib\presentation\screens\search\search_screen.dart:289:36 - non_type_as_type_argument
+  error - The name 'SearchLoading' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\search\search_screen.dart:291:22 - type_test_with_undefined_name
+  error - The name 'SearchLoading' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\search\search_screen.dart:300:22 - type_test_with_undefined_name
+  error - The name 'SearchError' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\search\search_screen.dart:308:22 - type_test_with_undefined_name
+  error - The name 'SearchResultsLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\search\search_screen.dart:322:22 - type_test_with_undefined_name
+  error - The method 'RefreshSearchResultsEvent' isn't defined for the type '_SearchScreenState' - lib\presentation\screens\search\search_screen.dart:336:19 - undefined_method
+  error - The name 'SearchState' isn't a type, so it can't be used as a type argument - lib\presentation\screens\search\search_screen.dart:377:40 - non_type_as_type_argument
+  error - The name 'SearchHistoryLoaded' isn't defined, so it can't be used in an 'is' expression - lib\presentation\screens\search\search_screen.dart:379:33 - type_test_with_undefined_name
+  error - The name 'ClearSearchHistoryEvent' isn't a class - lib\presentation\screens\search\search_screen.dart:413:54 - creation_with_non_type
+  error - The method 'RemoveSearchFromHistoryEvent' isn't defined for the type '_SearchScreenState' - lib\presentation\screens\search\search_screen.dart:429:19 - undefined_method
+   info - Parameter 'key' could be a super parameter - lib\presentation\screens\settings\settings_screen.dart:13:9 - use_super_parameters
+  error - There's no constant named 'generic' in 'ErrorType' - lib\presentation\screens\settings\settings_screen.dart:53:33 - undefined_enum_constant
+warning - The value of the local variable 'theme' isn't used - lib\presentation\screens\settings\settings_screen.dart:72:11 - unused_local_variable
+  error - The named parameter 'autoUpdate' isn't defined - lib\presentation\screens\settings\settings_screen.dart:355:17 - undefined_named_parameter
+  error - The named parameter 'sendCrashReports' isn't defined - lib\presentation\screens\settings\settings_screen.dart:356:17 - undefined_named_parameter
+  error - The named parameter 'sendUsageAnalytics' isn't defined - lib\presentation\screens\settings\settings_screen.dart:357:17 - undefined_named_parameter
+  error - The named parameter 'autoUpdate' isn't defined - lib\presentation\screens\settings\settings_screen.dart:392:17 - undefined_named_parameter
+  error - The named parameter 'sendCrashReports' isn't defined - lib\presentation\screens\settings\settings_screen.dart:393:17 - undefined_named_parameter
+  error - The named parameter 'sendUsageAnalytics' isn't defined - lib\presentation\screens\settings\settings_screen.dart:394:17 - undefined_named_parameter
+  error - The named parameter 'autoUpdate' isn't defined - lib\presentation\screens\settings\settings_screen.dart:409:17 - undefined_named_parameter
+  error - The named parameter 'sendCrashReports' isn't defined - lib\presentation\screens\settings\settings_screen.dart:410:17 - undefined_named_parameter
+  error - The named parameter 'sendUsageAnalytics' isn't defined - lib\presentation\screens\settings\settings_screen.dart:411:17 - undefined_named_parameter
+  error - The named parameter 'autoUpdate' isn't defined - lib\presentation\screens\settings\settings_screen.dart:426:17 - undefined_named_parameter
+  error - The named parameter 'sendCrashReports' isn't defined - lib\presentation\screens\settings\settings_screen.dart:427:17 - undefined_named_parameter
+  error - The named parameter 'sendUsageAnalytics' isn't defined - lib\presentation\screens\settings\settings_screen.dart:428:17 - undefined_named_parameter
+  error - The named parameter 'saveDownloadHistory' isn't defined - lib\presentation\screens\settings\settings_screen.dart:451:17 - undefined_named_parameter
+  error - The named parameter 'incognitoMode' isn't defined - lib\presentation\screens\settings\settings_screen.dart:453:17 - undefined_named_parameter
+  error - The named parameter 'saveDownloadHistory' isn't defined - lib\presentation\screens\settings\settings_screen.dart:467:17 - undefined_named_parameter
+  error - The named parameter 'incognitoMode' isn't defined - lib\presentation\screens\settings\settings_screen.dart:469:17 - undefined_named_parameter
+  error - The named parameter 'saveDownloadHistory' isn't defined - lib\presentation\screens\settings\settings_screen.dart:483:17 - undefined_named_parameter
+  error - The named parameter 'incognitoMode' isn't defined - lib\presentation\screens\settings\settings_screen.dart:485:17 - undefined_named_parameter
+  error - The named parameter 'requireAuthentication' isn't defined - lib\presentation\screens\settings\settings_screen.dart:688:17 - undefined_named_parameter
+  error - The named parameter 'authenticationMethod' isn't defined - lib\presentation\screens\settings\settings_screen.dart:689:17 - undefined_named_parameter
+  error - The named parameter 'hideInRecentApps' isn't defined - lib\presentation\screens\settings\settings_screen.dart:691:17 - undefined_named_parameter
+  error - The named parameter 'blockScreenshots' isn't defined - lib\presentation\screens\settings\settings_screen.dart:692:17 - undefined_named_parameter
+  error - The named parameter 'requireAuthentication' isn't defined - lib\presentation\screens\settings\settings_screen.dart:707:19 - undefined_named_parameter
+  error - The named parameter 'authenticationMethod' isn't defined - lib\presentation\screens\settings\settings_screen.dart:708:19 - undefined_named_parameter
+  error - The named parameter 'hideInRecentApps' isn't defined - lib\presentation\screens\settings\settings_screen.dart:710:19 - undefined_named_parameter
+  error - The named parameter 'blockScreenshots' isn't defined - lib\presentation\screens\settings\settings_screen.dart:711:19 - undefined_named_parameter
+  error - The named parameter 'requireAuthentication' isn't defined - lib\presentation\screens\settings\settings_screen.dart:727:19 - undefined_named_parameter
+  error - The named parameter 'authenticationMethod' isn't defined - lib\presentation\screens\settings\settings_screen.dart:728:19 - undefined_named_parameter
+  error - The named parameter 'hideInRecentApps' isn't defined - lib\presentation\screens\settings\settings_screen.dart:730:19 - undefined_named_parameter
+  error - The named parameter 'blockScreenshots' isn't defined - lib\presentation\screens\settings\settings_screen.dart:731:19 - undefined_named_parameter
+  error - The named parameter 'requireAuthentication' isn't defined - lib\presentation\screens\settings\settings_screen.dart:746:17 - undefined_named_parameter
+  error - The named parameter 'authenticationMethod' isn't defined - lib\presentation\screens\settings\settings_screen.dart:747:17 - undefined_named_parameter
+  error - The named parameter 'hideInRecentApps' isn't defined - lib\presentation\screens\settings\settings_screen.dart:749:17 - undefined_named_parameter
+  error - The named parameter 'blockScreenshots' isn't defined - lib\presentation\screens\settings\settings_screen.dart:750:17 - undefined_named_parameter
+  error - The named parameter 'requireAuthentication' isn't defined - lib\presentation\screens\settings\settings_screen.dart:764:17 - undefined_named_parameter
+  error - The named parameter 'authenticationMethod' isn't defined - lib\presentation\screens\settings\settings_screen.dart:765:17 - undefined_named_parameter
+  error - The named parameter 'hideInRecentApps' isn't defined - lib\presentation\screens\settings\settings_screen.dart:767:17 - undefined_named_parameter
+  error - The named parameter 'blockScreenshots' isn't defined - lib\presentation\screens\settings\settings_screen.dart:768:17 - undefined_named_parameter
+  error - The argument type 'BuildContext' can't be assigned to the parameter type 'Brightness'.  - lib\presentation\screens\settings\settings_screen.dart:1043:36 - argument_type_not_assignable
+   info - Unnecessary braces in a string interpolation - lib\presentation\screens\settings\settings_screen.dart:1133:43 - unnecessary_brace_in_string_interps
+  error - The named parameter 'historyType' is required, but there's no corresponding argument - lib\presentation\screens\settings\settings_screen.dart:1136:50 - missing_required_argument
+  error - The named parameter 'historyType' is required, but there's no corresponding argument - lib\presentation\screens\settings\settings_screen.dart:1138:50 - missing_required_argument
+  error - The named parameter 'cacheType' is required, but there's no corresponding argument - lib\presentation\screens\settings\settings_screen.dart:1149:48 - missing_required_argument
+  error - The named parameter 'category' is required, but there's no corresponding argument - lib\presentation\screens\settings\settings_screen.dart:1238:17 - missing_required_argument
+  error - The named parameter 'stepsToReproduce' is required, but there's no corresponding argument - lib\presentation\screens\settings\settings_screen.dart:1300:17 - missing_required_argument
+  error - The named parameter 'title' isn't defined - lib\presentation\screens\settings\settings_screen.dart:1301:19 - undefined_named_parameter
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\custom_app_bar.dart:24:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\custom_app_bar.dart:260:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\custom_app_bar.dart:443:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\error_widget.dart:27:9 - use_super_parameters
+warning - This default clause is covered by the previous cases - lib\presentation\widgets\common\error_widget.dart:137:7 - unreachable_switch_default
+warning - This default clause is covered by the previous cases - lib\presentation\widgets\common\error_widget.dart:205:7 - unreachable_switch_default
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\error_widget.dart:226:9 - use_super_parameters
+warning - The '!' will have no effect because the receiver can't be null - lib\presentation\widgets\common\error_widget.dart:370:44 - unnecessary_non_null_assertion
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\error_widget.dart:442:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\loading_widget.dart:21:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\loading_widget.dart:240:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\loading_widget.dart:279:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\loading_widget.dart:319:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\common\loading_widget.dart:385:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\download\download_card.dart:27:9 - use_super_parameters
+  error - The getter 'title' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:82:36 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:141:32 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:201:36 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:211:38 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:213:38 - undefined_getter
+  error - The getter 'thumbnail' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:253:32 - undefined_getter
+  error - The getter 'isNotEmpty' isn't defined for the type 'DownloadQuality' - lib\presentation\widgets\download\download_card.dart:280:30 - undefined_getter
+  error - The argument type 'DownloadQuality' can't be assigned to the parameter type 'String'.  - lib\presentation\widgets\download\download_card.dart:291:17 - argument_type_not_assignable
+warning - This default clause is covered by the previous cases - lib\presentation\widgets\download\download_card.dart:334:7 - unreachable_switch_default
+  error - The getter 'speed' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:363:75 - undefined_getter
+  error - The getter 'speed' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:366:44 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:389:31 - undefined_getter
+  error - The getter 'downloadedSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:390:20 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:390:46 - undefined_getter
+  error - The operator '>' can't be unconditionally invoked because the receiver can be 'null' - lib\presentation\widgets\download\download_card.dart:414:51 - unchecked_use_of_nullable_value
+  error - The argument type 'int' can't be assigned to the parameter type 'Duration'.  - lib\presentation\widgets\download\download_card.dart:414:53 - argument_type_not_assignable
+  error - The argument type 'Duration?' can't be assigned to the parameter type 'int'.  - lib\presentation\widgets\download\download_card.dart:416:40 - argument_type_not_assignable
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:430:31 - undefined_getter
+  error - The getter 'downloadedSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:431:20 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:431:46 - undefined_getter
+  error - The getter 'speed' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:477:28 - undefined_getter
+  error - The getter 'speed' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:488:45 - undefined_getter
+  error - The operator '>' can't be unconditionally invoked because the receiver can be 'null' - lib\presentation\widgets\download\download_card.dart:495:51 - unchecked_use_of_nullable_value
+  error - The argument type 'int' can't be assigned to the parameter type 'Duration'.  - lib\presentation\widgets\download\download_card.dart:495:53 - argument_type_not_assignable
+  error - The argument type 'Duration?' can't be assigned to the parameter type 'int'.  - lib\presentation\widgets\download\download_card.dart:506:44 - argument_type_not_assignable
+  error - The getter 'format' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:529:26 - undefined_getter
+  error - The getter 'format' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:530:52 - undefined_getter
+  error - The getter 'isNotEmpty' isn't defined for the type 'DownloadQuality' - lib\presentation\widgets\download\download_card.dart:533:34 - undefined_getter
+  error - The argument type 'DownloadQuality' can't be assigned to the parameter type 'String'.  - lib\presentation\widgets\download\download_card.dart:534:43 - argument_type_not_assignable
+  error - The getter 'fileName' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:541:29 - undefined_getter
+  error - The getter 'filePath' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:550:29 - undefined_getter
+warning - This default clause is covered by the previous cases - lib\presentation\widgets\download\download_card.dart:712:7 - unreachable_switch_default
+warning - This default clause is covered by the previous cases - lib\presentation\widgets\download\download_card.dart:731:7 - unreachable_switch_default
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:737:18 - undefined_getter
+  error - The getter 'downloadedSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:738:39 - undefined_getter
+  error - The getter 'totalSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:738:82 - undefined_getter
+  error - The getter 'downloadedSize' isn't defined for the type 'Download' - lib\presentation\widgets\download\download_card.dart:740:36 - undefined_getter
+   info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\presentation\widgets\search\search_bar_widget.dart:2:8 - unnecessary_import
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\search\search_bar_widget.dart:24:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\presentation\widgets\video\video_card.dart:30:9 - use_super_parameters
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:97:31 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:99:31 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:157:29 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:159:29 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:219:35 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:222:37 - undefined_getter
+  error - The argument type 'int' can't be assigned to the parameter type 'Duration'.  - lib\presentation\widgets\video\video_card.dart:231:46 - argument_type_not_assignable
+  error - The argument type 'Duration' can't be assigned to the parameter type 'int'.  - lib\presentation\widgets\video\video_card.dart:233:45 - argument_type_not_assignable
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:291:29 - undefined_getter
+  error - The getter 'channelThumbnail' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:296:50 - undefined_getter
+  error - The getter 'channelThumbnail' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:297:66 - undefined_getter
+  error - The getter 'channelThumbnail' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:299:40 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:301:41 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:302:47 - undefined_getter
+  error - The getter 'channelName' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:314:39 - undefined_getter
+  error - The getter 'subscriberCount' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:321:41 - undefined_getter
+  error - The getter 'subscriberCount' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:323:58 - undefined_getter
+  error - The getter 'thumbnail' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:373:25 - undefined_getter
+  error - The argument type 'int' can't be assigned to the parameter type 'Duration'.  - lib\presentation\widgets\video\video_card.dart:411:30 - argument_type_not_assignable
+  error - The argument type 'Duration' can't be assigned to the parameter type 'int'.  - lib\presentation\widgets\video\video_card.dart:422:33 - argument_type_not_assignable
+  error - The getter 'quality' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:433:19 - undefined_getter
+  error - The getter 'quality' isn't defined for the type 'Video' - lib\presentation\widgets\video\video_card.dart:444:23 - undefined_getter
+  error - The getter 'isNotEmpty' isn't defined for the type 'DateTime' - lib\presentation\widgets\video\video_card.dart:476:26 - undefined_getter
+  error - The argument type 'DateTime' can't be assigned to the parameter type 'String'.  - lib\presentation\widgets\video\video_card.dart:479:11 - argument_type_not_assignable
+  error - The argument type 'int' can't be assigned to the parameter type 'Duration'.  - lib\presentation\widgets\video\video_card.dart:486:37 - argument_type_not_assignable
+  error - The argument type 'Duration' can't be assigned to the parameter type 'int'.  - lib\presentation\widgets\video\video_card.dart:489:27 - argument_type_not_assignable
+
+flutter : 951 issues found. (ran in 1.8s)
+At line:1 char:1
++ flutter analyze 2>&1 | Out-File -FilePath analyze_output2.txt -Encodi ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (951 issues found. (ran in 1.8s):S 
+   tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
