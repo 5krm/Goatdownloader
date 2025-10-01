@@ -147,7 +147,7 @@ class TimeoutException extends AppException {
 
 /// Format not supported exceptions
 class UnsupportedFormatException extends AppException {
-  const UnsupportedFormatException(String s, {
+  const UnsupportedFormatException({
     required super.message,
     super.code,
     super.details,
