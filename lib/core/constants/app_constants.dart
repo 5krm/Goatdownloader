@@ -111,7 +111,7 @@ class AppConstants {
   static const String downloadCancelled = 'Download cancelled';
   
   // Regex Patterns
-  static const String youtubeUrlPattern = r'(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})';
+  static const String youtubeUrlPattern = r'(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)?\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})';
   static const String facebookUrlPattern = r'(?:https?:\/\/)?(?:www\.)?facebook\.com\/.*\/videos\/(\d+)';
   static const String instagramUrlPattern = r'(?:https?:\/\/)?(?:www\.)?instagram\.com\/(?:p|reel)\/([A-Za-z0-9_-]+)';
   static const String tiktokUrlPattern = r'(?:https?:\/\/)?(?:www\.)?tiktok\.com\/@[\w.-]+\/video\/(\d+)';
@@ -131,6 +131,51 @@ class AppConstants {
   // Security
   static const String encryptionKey = 'goat_downloader_encryption_key_2024';
   static const String saltKey = 'goat_downloader_salt_key_2024';
+}
+
+/// Error types used throughout the application
+enum ErrorType {
+  network,
+  server,
+  cache,
+  permission,
+  storage,
+  validation,
+  timeout,
+  unsupportedFormat,
+  notFound,
+  rateLimited,
+  generic,
+  unknown;
+  
+  String get displayName {
+    switch (this) {
+      case ErrorType.network:
+        return 'Network Error';
+      case ErrorType.server:
+        return 'Server Error';
+      case ErrorType.cache:
+        return 'Cache Error';
+      case ErrorType.permission:
+        return 'Permission Error';
+      case ErrorType.storage:
+        return 'Storage Error';
+      case ErrorType.validation:
+        return 'Validation Error';
+      case ErrorType.timeout:
+        return 'Timeout Error';
+      case ErrorType.unsupportedFormat:
+        return 'Unsupported Format';
+      case ErrorType.notFound:
+        return 'Not Found';
+      case ErrorType.rateLimited:
+        return 'Rate Limited';
+      case ErrorType.generic:
+        return 'Error';
+      case ErrorType.unknown:
+        return 'Unknown Error';
+    }
+  }
 }
 
 /// API endpoints for different video platforms
