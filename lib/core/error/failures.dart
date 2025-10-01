@@ -38,6 +38,15 @@ class ServerFailure extends Failure {
   });
 }
 
+/// Timeout-related failures
+class TimeoutFailure extends Failure {
+  const TimeoutFailure({
+    required super.message,
+    super.code,
+    super.details,
+  });
+}
+
 /// Cache-related failures
 class CacheFailure extends Failure {
   const CacheFailure({
